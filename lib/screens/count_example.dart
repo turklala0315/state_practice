@@ -14,7 +14,7 @@ class CountExample extends StatefulWidget {
 class _CountExampleState extends State<CountExample> {
   @override
   Widget build(BuildContext context) {
-    final CountProvider = Provider.of<CountProvider>(context);
+    final CountProvider = Provider.of(context);
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
